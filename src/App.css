@@ -26,11 +26,11 @@ body{
 }
 .X-hover:hover::after{
   content:"X";
-  opacity: 0.4;
+  opacity: 0.2;
 }
 .O-hover:hover::after{
   content:"O";
-  opacity: 0.4;
+  opacity: 0.2;
 }
 .text-green{
   color:green;
