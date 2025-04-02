@@ -20,9 +20,24 @@ This is a simple implementation of the Tic Tac Toe game using React. The game al
     ```
 
 3. Install dependencies:
-
-	npm install
+Run the following command to install the required dependencies:
+    ```bash
+    npm install
+    ```l
 
 4. Start the development server:
-	npm run dev
+	 After installing the dependencies, run the following command to start the local development server:
+    ```bash
+    npm run dev
+    ```
 The game will be accessible in your browser at http://localhost:5173/.
+
+## Features
+
+- **2-player mode**: Players take turns to mark cells with 'X' and 'O'.
+- **Win detection**: The game detects winning combinations and highlights them.
+- **Draw detection**: The game detects if all cells are filled without a winner (i.e., a draw).
+- **Reset functionality**: The game can be reset at any time.
+- **Hover effect**: When it's the player's turn, the cell will show a hover effect indicating where the next move will go.
+
+---
