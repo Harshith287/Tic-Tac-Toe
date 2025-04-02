@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.app-container{
+  background-color: rgb(237, 240, 243);
+}
+.board{
+  display:grid;
+  grid-template-columns: repeat(3,90px);
+  grid-template-rows: repeat(3,90px);
+  cursor: pointer;
+  background-color: rgb(63, 63, 63);
+  border-radius: 6px;
+  gap:10px;
+  padding:10px;
+  position:relative;
+}
+.cell{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  /* border:1px solid rgb(232, 167, 167); */
+  background-color: rgb(168, 131, 89);
+}
+.X-hover:hover::after{
+  content:"X";
+  opacity: 0.4;
+}
+.O-hover:hover::after{
+  content:"O";
+  opacity: 0.4;
+}
+.text-green{
+  color:green;
+}
