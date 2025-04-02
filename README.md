@@ -15,7 +15,9 @@ This is a simple implementation of the Tic Tac Toe game using React. The game al
 
 2. Navigate to the project directory:
 	
-	cd tic-tac-toe
+	```bash
+    cd tic-tac-toe
+    ```
 
 3. Install dependencies:
 
