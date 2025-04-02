@@ -33,7 +33,7 @@ You can also play the game live at: [Live Demo](https://harshith287-tic-tac-toe.
 Run the following command to install the required dependencies:
     ```bash
     npm install
-    ```l
+    ```
 
 4. Start the development server:
 	 After installing the dependencies, run the following command to start the local development server:
