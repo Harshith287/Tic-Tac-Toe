@@ -4,6 +4,14 @@ This is a simple implementation of the Tic Tac Toe game using React. The game al
 
 You can also play the game live at: [Live Demo](https://harshith287-tic-tac-toe.vercel.app/)
 
+## Features
+
+- **2-player mode**: Players take turns to mark cells with 'X' and 'O'.
+- **Win detection**: The game detects winning combinations and highlights them.
+- **Draw detection**: The game detects if all cells are filled without a winner (i.e., a draw).
+- **Reset functionality**: The game can be reset at any time.
+- **Hover effect**: When it's the player's turn, the cell will show a hover effect indicating where the next move will go.
+
 ## Prerequisites
 
 - Node.js (>= 14.x)
@@ -34,12 +42,6 @@ Run the following command to install the required dependencies:
     ```
 The game will be accessible in your browser at http://localhost:5173/.
 
-## Features
 
-- **2-player mode**: Players take turns to mark cells with 'X' and 'O'.
-- **Win detection**: The game detects winning combinations and highlights them.
-- **Draw detection**: The game detects if all cells are filled without a winner (i.e., a draw).
-- **Reset functionality**: The game can be reset at any time.
-- **Hover effect**: When it's the player's turn, the cell will show a hover effect indicating where the next move will go.
 
 ---
