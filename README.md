@@ -2,7 +2,7 @@
 
 This is a simple implementation of the Tic Tac Toe game using React. The game allows two players to take turns and play on a 3x3 grid. The game highlights the winning combination and provides a reset button to start a new game.
 
-You can also play the game live at:[Live Demo](https://harshith287-tic-tac-toe.vercel.app/)
+You can also play the game live at: [Live Demo](https://harshith287-tic-tac-toe.vercel.app/)
 
 ## Prerequisites
 
